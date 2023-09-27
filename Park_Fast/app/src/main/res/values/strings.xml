@@ -35,6 +35,7 @@
 
     //BIENVENIDO
 
+    <string name="txt_bienvenido"></string>
     <string name="btn_registrarseA">Registrar Automovil</string>
     <string name="btn_reservar">Reservar</string>
     <string name="btn_pagar">Pagar</string>
