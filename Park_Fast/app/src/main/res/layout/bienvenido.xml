@@ -58,7 +58,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btn_registrarseA"
             android:layout_width="match_parent"
             android:layout_height="63dp"
             android:backgroundTint="@color/blue"
@@ -66,7 +66,7 @@
             android:text="@string/btn_registrarseA" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btn_reservar"
             android:layout_width="match_parent"
             android:layout_height="63dp"
             android:backgroundTint="@color/blue"
@@ -74,7 +74,7 @@
             android:text="@string/btn_reservar" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_pagar"
             android:layout_width="match_parent"
             android:layout_height="63dp"
             android:backgroundTint="@color/blue"
@@ -82,7 +82,7 @@
             android:text="@string/btn_pagar" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_informacion"
             android:layout_width="match_parent"
             android:layout_height="63dp"
             android:backgroundTint="@color/blue"
