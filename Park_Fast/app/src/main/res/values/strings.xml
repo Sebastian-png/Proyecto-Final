@@ -41,6 +41,16 @@
     <string name="btn_pagar">Pagar</string>
     <string name="btn_informacion">Información</string>
 
+    //PAGOS
+
+
+    <string name="btn_pagoNequi">Nequi</string>
+    <string name="btn_pagoPSE">PSE</string>
+    <string name="btn_pagoDavi">Daviplata</string>
+    <string name="btn_pagoTdTc">Tarjetas Débito/Crédito</string>
+    <string name="btn_volver">Volver</string>
+
+
 
 
 
