@@ -15,17 +15,12 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
-import android.graphics.drawable.ColorDrawable;
-import android.os.Bundle;
-
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 
 import edu.co.park_fast.api.ServiceLogin;
 import edu.co.park_fast.model.Credentials;
@@ -42,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText user;
     private EditText pass;
     private Button logear;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
