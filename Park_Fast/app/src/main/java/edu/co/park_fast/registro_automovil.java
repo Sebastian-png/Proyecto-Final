@@ -14,9 +14,10 @@ import android.widget.ImageView;
 public class registro_automovil extends AppCompatActivity {
 
     Button btn_foto;
-    ImageView img_view;
+    ImageView imgview;
 
 
+    //@SuppressLint("MissingInflatedId")
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +25,7 @@ public class registro_automovil extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
         btn_foto = findViewById(R.id.btn_tomarfoto);
-        img_view = findViewById(R.id.img_view);
+        imgview = findViewById(R.id.img_view);
 
         btn_foto.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +46,6 @@ public class registro_automovil extends AppCompatActivity {
         if (requestCode == 1 && resultCode == RESULT_OK) ;
         Bundle extras = data.getExtras();
         Bitmap imgBitmap = (Bitmap) extras.get("data");
-        img_view.setImageBitmap(imgBitmap);
+        imgview.setImageBitmap(imgBitmap);
     }
 }

@@ -115,8 +115,7 @@
             android:id="@+id/img_view"
             android:layout_width="match_parent"
             android:layout_height="188dp"
-            android:contentDescription="@string/btn_tomarfoto"
-            android:src="@tools:sample/avatars" />
+            android:contentDescription="@string/btn_tomarfoto" />
 
         <Button
             android:id="@+id/btn_registrar2"
