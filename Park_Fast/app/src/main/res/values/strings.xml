@@ -61,9 +61,12 @@
 
     //RESERVAS
 
-
-
-
+    <string name="btn_reservar2">Reservar</string>
+    <string name="btn_volver3">Volver</string>
+    <string name="edtxt_NombresR">Nombres</string>
+    <string name="edtxt_ApellidosR">Apellidos</string>
+    <string name="edtxt_Telefono">Telefono</string>
+    <string name="edtxt_CorreoC">Correo Electronico</string>
 
 
 </resources>
