@@ -32,7 +32,7 @@ import retrofit2.Callback;
 import retrofit2.Retrofit;
 
 public class MainActivity extends AppCompatActivity {
-
+    Button registrar;
     private Retrofit retrofit;
     private EditText user;
     private EditText pass;
@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         parInit();
         logear.setOnClickListener(this::processLogin);
+
+        registrar.setOnClickListener(this::registro);
     }
     private void alertView(String mensaje) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -122,10 +124,20 @@ public class MainActivity extends AppCompatActivity {
             System.err.println(e.getMessage());
         }
     }
+    private void registro() {
+        try {
+            Intent intent = new Intent(this, registro_usuario.class);
+            startActivity(intent);
+            finish();
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
+    }
     private void parInit(){
         user = findViewById(R.id.edtxt_usuario);
         pass = findViewById(R.id.edtxt_contra);
         logear = findViewById(R.id.btn_acceder);
+        registrar = findViewById(R.id.btn_registrar);
     }
     public boolean validEmail(String data){
         Pattern pattern =
