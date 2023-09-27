@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="edu.co.park_fast">
 
-    <uses-feature android:name="android.hardware.camera"
-        android:required="true"></uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
     <uses-feature
         android:name="android.hardware.telephony"
         android:required="false" />
@@ -23,6 +24,21 @@
         android:theme="@style/Theme.Park_Fast"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+        <activity
+            android:name=".registro_usuario"
+            android:exported="false" />
+        <activity
+            android:name=".info_parqueadero"
+            android:exported="false" />
+        <activity
+            android:name=".pagos"
+            android:exported="false" />
+        <activity
+            android:name=".bienvenido"
+            android:exported="false" />
+        <activity
+            android:name=".reservas"
+            android:exported="false" />
         <activity
             android:name=".firebase.HomeActivity"
             android:exported="false" />
