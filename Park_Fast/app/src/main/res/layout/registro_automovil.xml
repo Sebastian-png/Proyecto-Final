@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/green"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="PARK_FAST"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="172dp"
+            tools:layout_editor_absoluteY="13dp" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/parking"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.constraintlayout.utils.widget.ImageFilterView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="100dp"
+        android:gravity="center"
+        android:text="Registro De Automovil"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar" />
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="545dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/edtxt_marca"
+            android:inputType="number"
+            android:padding="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/edtxt_colorV"
+            android:inputType="textEmailAddress"
+            android:padding="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/edtxt_modelo"
+            android:inputType="textEmailAddress"
+            android:padding="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/edtxt_placa"
+            android:inputType="textEmailAddress"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/btn_tomarfoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_tomarfoto" />
+
+        <ImageView
+            android:id="@+id/img_view"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:contentDescription="@string/btn_tomarfoto"
+            android:src="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/btn_registrar2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:insetLeft="0dp"
+            android:text="@string/btn_registrarse" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

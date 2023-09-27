@@ -1,0 +1,46 @@
+<resources>
+
+    //INICIO DE SESION
+
+    <string name="app_name">Park_Fast</string>
+    <string name="toolbar_title"></string>
+    <string name="iniciar_ses">Iniciar Sesion</string>
+    <string name="item1"></string>
+    <string name="edtxt_usuario">Usuario</string>
+    <string name="edtxt_contra">Contraseña</string>
+    <string name="btn_acceder">Acceder</string>
+    <string name="btn_registrar">Registrarse</string>
+
+    //REGISTRO USUARIOS
+
+    <string name="edtxt_nombres">Nombres</string>
+    <string name="edtxt_apellidos">Apellidos</string>
+    <string name="edtxt_cedula">N° Cedula</string>
+    <string name="btn_fecha_nacimierto">Fecha de Nacimiento</string>
+    <string name="txt_fecha_nacimierto"></string>
+    <string name="edtxt_edad">Ingrese su Edad</string>
+    <string name="edtxt_correo">Correo Electronico</string>
+    <string name="edtxt_contra1">Contraseña</string>
+    <string name="edtxt_contra2">Confirmar Contraseña</string>
+    <string name="btn_registrar2">Registrarse</string>
+
+    //REGISTRO DE AUTOMOVIL
+
+    <string name="edtxt_marca">Marca de Vehiculo</string>
+    <string name="edtxt_colorV">Color</string>
+    <string name="edtxt_modelo">Modelo</string>
+    <string name="edtxt_placa">Placa</string>
+    <string name="btn_tomarfoto">Camara</string>
+    <string name="btn_registrarse">Registrar</string>
+
+    //BIENVENIDO
+
+    <string name="btn_registrarseA">Registrar Automovil</string>
+    <string name="btn_reservar">Reservar</string>
+    <string name="btn_pagar">Pagar</string>
+    <string name="btn_informacion">Información</string>
+
+
+
+
+</resources>
