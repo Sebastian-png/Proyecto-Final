@@ -55,7 +55,7 @@
         android:layout_marginTop="48dp"
         android:layout_marginEnd="100dp"
         android:gravity="center"
-        android:text="Registro De Automovil"
+        android:text="¡Información del Parqueadero!"
         android:textColor="@color/black"
         android:textSize="28dp"
         android:textStyle="bold"
@@ -78,8 +78,8 @@
             android:id="@+id/img_view"
             android:layout_width="match_parent"
             android:layout_height="188dp"
-            android:contentDescription="@string/btn_tomarfoto" />
-
+            android:contentDescription="@string/btn_tomarfoto"
+            app:srcCompat="@drawable/descarga__2_" />
 
         <TextView
             android:id="@+id/textView16"
@@ -98,6 +98,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
             android:background="@color/gray_light"
             android:text="@string/txt_apertura"
             android:textAlignment="center" />
@@ -107,6 +109,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
             android:background="@color/gray_light"
             android:text="@string/txt_cierre"
             android:textAlignment="center" />
@@ -129,6 +133,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
             android:background="@color/gray_light"
             android:text="@string/txt_por_minuto"
             android:textAlignment="center" />
@@ -138,6 +144,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
             android:background="@color/gray_light"
             android:text="@string/txt_por89min"
             android:textAlignment="center" />
@@ -146,10 +154,10 @@
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="15dp"/>
+            android:padding="12dp"/>
 
         <Button
-            android:id="@+id/btn_registrar2"
+            android:id="@+id/btn_volver2"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

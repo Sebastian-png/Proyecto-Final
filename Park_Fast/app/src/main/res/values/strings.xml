@@ -52,10 +52,10 @@
 
     //INFO PARQUEADERO
 
-    <string name="txt_apertura">Apertura: </string>
-    <string name="txt_cierre">Cierre: </string>
-    <string name="txt_por_minuto">por minuto</string>
-    <string name="txt_por89min">por 89 minutos</string>
+    <string name="txt_apertura">Apertura: 10:00 am.</string>
+    <string name="txt_cierre">Cierre: 8:00 pm</string>
+    <string name="txt_por_minuto">79$ por minuto</string>
+    <string name="txt_por89min">7.000$ por 89 minutos</string>
     <string name="btn_volver2">Volver</string>
 
 

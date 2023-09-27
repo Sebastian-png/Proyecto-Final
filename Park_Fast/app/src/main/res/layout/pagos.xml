@@ -71,7 +71,7 @@ tools:context=".MainActivity">
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/btn_registrarseA"
+            android:id="@+id/btn_pagoTdTc"
             android:layout_width="match_parent"
             android:layout_height="63dp"
             android:backgroundTint="@color/blue"
@@ -83,7 +83,7 @@ tools:context=".MainActivity">
             android:layout_height="40dp" />
 
         <Button
-            android:id="@+id/btn_reservar"
+            android:id="@+id/btn_pagoPSE"
             android:layout_width="match_parent"
             android:layout_height="63dp"
             android:backgroundTint="@color/blue"
@@ -95,7 +95,7 @@ tools:context=".MainActivity">
             android:layout_height="40dp" />
 
         <Button
-            android:id="@+id/btn_pagar"
+            android:id="@+id/btn_pagoNequi"
             android:layout_width="match_parent"
             android:layout_height="63dp"
             android:backgroundTint="@color/blue"
@@ -107,7 +107,7 @@ tools:context=".MainActivity">
             android:layout_height="40dp" />
 
         <Button
-            android:id="@+id/btn_informacion"
+            android:id="@+id/btn_pagoDavi"
             android:layout_width="match_parent"
             android:layout_height="63dp"
             android:backgroundTint="@color/blue"
